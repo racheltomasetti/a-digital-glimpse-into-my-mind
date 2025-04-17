@@ -9,7 +9,7 @@ export default function Home() {
       <div className="flex flex-col gap-4 mb-6">
         <p>Hi, welcome.</p>
         <p>I am immensely curious about the power of the mind.</p>
-        <p>Here you'll find living documentation of what's been on my mind.</p>
+        <p>Here you'll find what's been on my mind.</p>
         <ul className="list-disc pl-6 space-y-2">
           <li>
             <a href="/ki" className="hover:font-bold transition-all">
