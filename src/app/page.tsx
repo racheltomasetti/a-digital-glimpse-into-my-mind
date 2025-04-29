@@ -27,10 +27,13 @@ export default function Home() {
 
         {/* Mission Statement */}
         <section id="mission" className="space-y-4 text-center">
-          <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">
-            Bridging the mind and body through hormonal self-awareness — helping
-            women trust the wisdom within.
-          </h1>
+          <div>
+            <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">
+              Bridging the mind and body through hormonal self-awareness —
+              helping women trust the wisdom within.
+            </h1>
+            <div className="w-full h-px bg-black/10 mt-6"></div>
+          </div>
         </section>
 
         {/* Table of Contents */}
@@ -71,7 +74,10 @@ export default function Home() {
 
         {/* Founder Story */}
         <section id="why" className="space-y-4">
-          <h2 className="text-xl font-bold">My Why</h2>
+          <div>
+            <h2 className="text-xl font-bold">My Why</h2>
+            <div className="w-full h-px bg-black/10 mt-2"></div>
+          </div>
           <div className="space-y-4 text-tx-2">
             <p>
               For years, I felt disconnected from my body — lost in a search for
@@ -86,7 +92,10 @@ export default function Home() {
 
         {/* Curiosities Section */}
         <section id="curiosities" className="space-y-4">
-          <h2 className="text-xl font-bold">My Curiosities</h2>
+          <div>
+            <h2 className="text-xl font-bold">My Curiosities</h2>
+            <div className="w-full h-px bg-black/10 mt-2"></div>
+          </div>
           <div className="space-y-6 text-tx-2">
             <p>
               My life — and my work — are guided by a set of questions I return
@@ -142,32 +151,83 @@ export default function Home() {
 
         {/* Building Process Section */}
         <section id="building" className="space-y-4">
-          <h2 className="text-xl font-bold">Building Ki</h2>
-          <div className="space-y-4 text-tx-2">
+          <div>
+            <h2 className="text-xl font-bold">Building Ki</h2>
+            <div className="w-full h-px bg-black/10 mt-2"></div>
+          </div>
+          <div className="space-y-6 text-tx-2">
+            <p>Building Ki has been a journey of learning in every sense.</p>
             <p>
-              Every line of code, every design decision, and every feature is
-              shaped by real women's experiences. I'm building Ki iteratively,
-              learning from feedback, and evolving the product to truly serve
-              our community's needs.
+              I didn't start this project already knowing how to build it — I
+              had to teach myself how to build, while simultaneously discovering
+              what to build.
             </p>
-            <div className="space-y-2">
-              <p>Current Focus:</p>
-              <ul className="list-inside space-y-1">
-                <li>
-                  • Understanding user pain points through research and
-                  interviews
-                </li>
-                <li>• Developing intuitive tracking mechanisms</li>
-                <li>• Creating meaningful data visualizations</li>
-                <li>• Building a supportive community platform</li>
-              </ul>
+            <p>
+              It has been an ongoing cycle of exploration, creation, feedback,
+              and iteration — learning technical skills, deepening my
+              understanding of women's health, and refining how technology can
+              truly serve us, not just track us.
+            </p>
+
+            <div className="space-y-4">
+              <p className="font-medium text-lg">
+                At the heart of Ki's design process:
+              </p>
+
+              <div className="space-y-6">
+                <div className="p-4 border border-black/10 rounded-lg hover:border-black/20 transition-all">
+                  <p className="font-semibold text-black/80 mb-2">
+                    Listening First
+                  </p>
+                  <p className="text-black/70">
+                    Understanding real experiences, needs, and frustrations of
+                    women navigating their health.
+                  </p>
+                </div>
+
+                <div className="p-4 border border-black/10 rounded-lg hover:border-black/20 transition-all">
+                  <p className="font-semibold text-black/80 mb-2">
+                    Designing with Purpose
+                  </p>
+                  <p className="text-black/70">
+                    Every feature stems from a simple question — how can this
+                    help a woman better trust her body today?
+                  </p>
+                </div>
+
+                <div className="p-4 border border-black/10 rounded-lg hover:border-black/20 transition-all">
+                  <p className="font-semibold text-black/80 mb-2">
+                    Building for Alignment
+                  </p>
+                  <p className="text-black/70">
+                    Ensuring that Ki bridges the mind and body, helping women
+                    live more connected, empowered lives.
+                  </p>
+                </div>
+
+                <div className="p-4 border border-black/10 rounded-lg hover:border-black/20 transition-all">
+                  <p className="font-semibold text-black/80 mb-2">
+                    Iterating Constantly
+                  </p>
+                  <p className="text-black/70">
+                    No single solution is final. Every prototype, every test is
+                    a stepping stone toward deeper insight and better design.
+                    And just like we are constantly evolving, Ki is too — a
+                    living system that will continue to grow, learn, and adapt
+                    alongside the women it serves.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
 
         {/* FAQ Section */}
         <section id="faq" className="space-y-6">
-          <h2 className="text-xl font-bold">FAQ</h2>
+          <div>
+            <h2 className="text-xl font-bold">FAQ</h2>
+            <div className="w-full h-px bg-black/10 mt-2"></div>
+          </div>
           <div className="space-y-6 text-tx-2">
             <div className="space-y-2">
               <p className="font-semibold text-lg text-black/80 border-b border-black/10 pb-1">
@@ -186,10 +246,10 @@ export default function Home() {
                 How is Ki different from other period tracking apps?
               </p>
               <p className="pl-4 text-black/70">
-                Ki goes beyond simple calendar tracking. We combine modern
-                technology with traditional wisdom to help you understand the
-                deeper patterns of your body. Our approach emphasizes body
-                literacy, intuitive tracking, and personalized insights.
+                We combine modern technology with body literacy principles to
+                help women understand the patterns behind their cycles — not
+                just dates. Our focus is intuitive tracking, tailored insights,
+                and true mind-body alignment.
               </p>
             </div>
 
@@ -198,22 +258,23 @@ export default function Home() {
                 Is Ki only for women with menstrual cycles?
               </p>
               <p className="pl-4 text-black/70">
-                Ki is designed for anyone looking to better understand their
-                hormonal health, including those in different life stages like
-                perimenopause, post-menopause, or dealing with hormonal
-                conditions.
+                Ki is designed for anyone seeking deeper hormonal
+                self-awareness, across different life stages — including
+                perimenopause, post-menopause, and hormonal conditions. Our
+                mission is to empower all users to understand and work with
+                their bodies, wherever they are in their journey.
               </p>
             </div>
 
             <div className="space-y-2">
               <p className="font-semibold text-lg text-black/80 border-b border-black/10 pb-1">
-                How does Ki protect my privacy?
+                How does Ki protect user privacy?
               </p>
               <p className="pl-4 text-black/70">
-                Privacy is at the core of Ki's design. Your intimate health data
-                stays private and secure. We follow strict data protection
-                standards and never share your personal information with third
-                parties.
+                Privacy is foundational to Ki’s design. All health data is
+                securely stored and never sold to third parties. Users have full
+                ownership of their data — we believe bodily autonomy extends to
+                digital autonomy.
               </p>
             </div>
           </div>
@@ -221,7 +282,10 @@ export default function Home() {
 
         {/* Call to Connect */}
         <section id="connect" className="space-y-4 text-center">
-          <h2 className="text-xl font-bold">Let's Connect</h2>
+          <div>
+            <h2 className="text-xl font-bold">Let's Connect</h2>
+            <div className="w-full h-px bg-black/10 mt-2"></div>
+          </div>
           <p className="text-tx-2 italic">
             Join us in building a future where every woman has the tools to
             understand and honor her body's wisdom.
