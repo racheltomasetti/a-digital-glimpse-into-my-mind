@@ -30,7 +30,8 @@ export default function Home() {
           <div>
             <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">
               Bridging the mind and body through hormonal self-awareness —
-              helping women trust the wisdom within.
+              helping women trust the wisdom within. Become the CEO of your
+              health.
             </h1>
             <div className="w-full h-px bg-black/10 mt-6"></div>
           </div>
