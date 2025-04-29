@@ -28,8 +28,8 @@ export default function Home() {
         {/* Mission Statement */}
         <section id="mission" className="space-y-4 text-center">
           <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">
-            On a mission to empower women to believe in their bodies through
-            hormonal self-awareness.
+            Bridging the mind and body through hormonal self-awareness — helping
+            women trust the wisdom within.
           </h1>
         </section>
 
@@ -52,7 +52,7 @@ export default function Home() {
               href="#building"
               className="hover:underline px-4 py-2 rounded-full border border-current transition-all hover:bg-black hover:text-white"
             >
-              Building Process
+              Building Ki
             </a>
             <a
               href="#faq"
@@ -74,11 +74,12 @@ export default function Home() {
           <h2 className="text-xl font-bold">My Why</h2>
           <div className="space-y-4 text-tx-2">
             <p>
-              I spent years feeling disconnected from my body, searching for
-              answers. What I discovered is that our bodies carry innate wisdom
-              — but without the right tools, that knowledge stays hidden. Ki is
-              the toolkit I wish I had. I'm building it so no woman feels as
-              lost as I once did.
+              For years, I felt disconnected from my body — lost in a search for
+              answers no one seemed to have. What I discovered changed
+              everything: our bodies carry a profound, innate wisdom. But
+              without the right tools, that knowledge remains hidden. Ki is the
+              toolkit I needed — and am now building — so no woman has to walk
+              that journey alone.
             </p>
           </div>
         </section>
@@ -86,37 +87,62 @@ export default function Home() {
         {/* Curiosities Section */}
         <section id="curiosities" className="space-y-4">
           <h2 className="text-xl font-bold">My Curiosities</h2>
-          <div className="space-y-4 text-tx-2">
+          <div className="space-y-6 text-tx-2">
             <p>
-              My journey is driven by deep curiosity about the intersection of
-              technology, wellness, and human experience.
+              My life — and my work — are guided by a set of questions I return
+              to again and again.
             </p>
-            <div className="space-y-2">
-              <ul className="list-inside space-y-2">
+            <p>
+              Inspired by physicist <i>Richard Feynman's</i>{" "}
+              <a
+                href="https://fortelabs.com/blog/12-favorite-problems-how-to-spark-genius-with-the-power-of-open-questions/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-black/70 transition-colors"
+              >
+                12 Favorite Problems
+              </a>{" "}
+              — questions that quietly shape how we observe, learn, and create —
+              I've gathered the guiding questions that define my path. These
+              "favorite problems" shape the way I think, build, and live:
+            </p>
+            <div className="space-y-3">
+              <ul className="list-inside space-y-3">
+                <li>1. How do I live fully in the present moment?</li>
+                <li>2. How can I create beautiful technology?</li>
                 <li>
-                  • How might we bridge the gap between digital tools and bodily
-                  wisdom?
+                  3. How can I learn most effectively — and continue evolving?
                 </li>
                 <li>
-                  • What role can technology play in deepening our connection to
-                  our bodies?
+                  4. How can I ensure I am doing what is truly best for me right
+                  now?
                 </li>
                 <li>
-                  • How can we make hormonal health data more meaningful and
-                  actionable?
+                  5. How can I free myself from the fear of how others perceive
+                  me — and show up fully?
                 </li>
+                <li>6. How can I live in alignment with my truest Self?</li>
+                <li>7. What makes me feel most alive?</li>
                 <li>
-                  • What does it mean to build technology that truly honors
-                  feminine wisdom?
+                  8. How can I optimize my health — of sound mind, body, and
+                  community?
                 </li>
+                <li>9. How can I provide meaningful value to others?</li>
+                <li>10. What do I know to be fundamentally true?</li>
+                <li>11. How do I find and live my purpose?</li>
+                <li>12. Who am I?</li>
               </ul>
             </div>
+            <p className="mt-6 italic">
+              Ki was born at the intersection of these questions — a step toward
+              bridging technology, health, and the timeless search for meaning.
+            </p>
           </div>
         </section>
 
         {/* Building Process Section */}
         <section id="building" className="space-y-4">
-          <h2 className="text-xl font-bold">Building Process</h2>
+          <h2 className="text-xl font-bold">Building Ki</h2>
           <div className="space-y-4 text-tx-2">
             <p>
               Every line of code, every design decision, and every feature is
