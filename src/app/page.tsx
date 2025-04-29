@@ -358,19 +358,6 @@ export default function Home() {
 
             <div className="space-y-2">
               <p className="font-semibold text-lg text-black/80 border-b border-black/10 pb-1">
-                Is Ki only for women with menstrual cycles?
-              </p>
-              <p className="pl-4 text-black/70">
-                Ki is designed for anyone seeking deeper hormonal
-                self-awareness, across different life stages — including
-                perimenopause, post-menopause, and hormonal conditions. Our
-                mission is to empower all users to understand and work with
-                their bodies, wherever they are in their journey.
-              </p>
-            </div>
-
-            <div className="space-y-2">
-              <p className="font-semibold text-lg text-black/80 border-b border-black/10 pb-1">
                 How does Ki protect user privacy?
               </p>
               <p className="pl-4 text-black/70">
