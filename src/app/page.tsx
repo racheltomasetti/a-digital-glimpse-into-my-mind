@@ -219,6 +219,108 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+            {/* Design Process Subsection */}
+            <div className="space-y-4 mt-8">
+              <h3 className="font-semibold text-lg">
+                A Glimpse into the Design Process
+              </h3>
+              <p className="text-black/70">
+                The current development phase focuses on three core areas:
+                system architecture, user experience design, and data
+                infrastructure. Our workspace reflects the living nature of the
+                project — from initial system mapping to detailed UI/UX
+                considerations.
+              </p>
+              <div className="relative w-full h-[400px] mt-4 rounded-lg overflow-hidden ">
+                <Image
+                  src="/designProcess.png"
+                  alt="Ki Design Process Workspace"
+                  fill
+                  className="object-contain"
+                  priority
+                />
+              </div>
+              <p className="text-sm text-black/60 italic mt-2">
+                Current workspace showing system mapping, user flow design, and
+                component architecture (April 2025)
+              </p>
+            </div>
+
+            {/* Current State of Development */}
+            <div className="space-y-6 mt-12">
+              <h3 className="font-semibold text-lg">
+                Current State of Development
+              </h3>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="p-4 rounded-lg bg-black/5">
+                  <h4 className="font-medium mb-2">Design</h4>
+                  <ul className="space-y-2 text-black/70">
+                    <li>• User flow mapping completed</li>
+                    <li>• Core UI components designed</li>
+                    <li>• Initial style guide established</li>
+                    <li>• Onboarding experience prototyped</li>
+                  </ul>
+                </div>
+
+                <div className="p-4 rounded-lg bg-black/5">
+                  <h4 className="font-medium mb-2">Development</h4>
+                  <ul className="space-y-2 text-black/70">
+                    <li>• System architecture defined</li>
+                    <li>• Data model in progress</li>
+                    <li>• Core tracking features in development</li>
+                    <li>
+                      • Foundational AI agent integrated to assist with
+                      personalized insights
+                    </li>
+                    <li>• Privacy framework established</li>
+                  </ul>
+                </div>
+
+                <div className="p-4 rounded-lg bg-black/5">
+                  <h4 className="font-medium mb-2">Research</h4>
+                  <ul className="space-y-2 text-black/70">
+                    <li>
+                      • Ongoing user interviews to understand lived experiences
+                    </li>
+                    <li>
+                      • Consultations with health experts and practitioners
+                    </li>
+                    <li>
+                      • Extensive review of scientific literature on hormonal
+                      health and cycle-based living
+                    </li>
+                    <li>
+                      • Continuous learning from personal experience,
+                      observation, and real-world insights
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="p-4 rounded-lg bg-black/5">
+                  <h4 className="font-medium mb-2">Next Steps</h4>
+                  <ul className="space-y-2 text-black/70">
+                    <li>• Complete core tracking and journaling features</li>
+                    <li>
+                      • Expand AI agent capabilities for personalized insights
+                    </li>
+                    <li>
+                      • Launch early beta for a community of wellness-focused
+                      users
+                    </li>
+                    <li>
+                      • Integrate user feedback into iterative design and
+                      development
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <p className="text-sm text-black/60 italic mt-4">
+                Last updated: April 2025 — Development is active and ongoing
+              </p>
+            </div>
           </div>
         </section>
 
@@ -271,7 +373,7 @@ export default function Home() {
                 How does Ki protect user privacy?
               </p>
               <p className="pl-4 text-black/70">
-                Privacy is foundational to Ki’s design. All health data is
+                Privacy is foundational to Ki's design. All health data is
                 securely stored and never sold to third parties. Users have full
                 ownership of their data — we believe bodily autonomy extends to
                 digital autonomy.
