@@ -2,6 +2,8 @@
 
 **My personal website — a living, evolving touchpoint for anyone curious about what I’m building, learning, thinking about, or dreaming up.**
 
+### 🔗[https://www.racheltomasetti.com](https://www.racheltomasetti.com)
+
 But more than that, it’s a window into my mind.
 
 ---
@@ -29,8 +31,6 @@ This project is also for me: to track my evolution, make sense of my scattered t
 
 Thanks for visiting — and checking out even a small glimpse of what’s going on inside.
 
-
-### 🔗[https://www.racheltomasetti.com](https://www.racheltomasetti.com)
 
 With love, 
 Rachel Tomasetti  
