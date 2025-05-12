@@ -1,6 +1,8 @@
 # A Glimpse Into My Mind
 
-This repository powers my personal website — a living, evolving touchpoint for anyone curious about what I’m building, learning, thinking about, or dreaming up. But more than that, it’s a window into my mind.
+My personal website — a living, evolving touchpoint for anyone curious about what I’m building, learning, thinking about, or dreaming up. 
+
+But more than that, it’s a window into my mind.
 
 Creating this site has been a long, nonlinear journey — one that’s stretched over a year of learning, building, breaking, and rebuilding. At first, the biggest challenge was technical: I had a vision for what I wanted to create, but not yet the skills to bring it to life. Slowly, through late nights, trial and error, and the growing magic of AI tools, that gap began to close. I reached a point where I could build anything I imagined.
 
