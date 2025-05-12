@@ -1,6 +1,6 @@
 # A Glimpse Into My Mind
 
-### 🔗[https://www.racheltomasetti.com](https://www.racheltomasetti.com)
+🔗[https://www.racheltomasetti.com](https://www.racheltomasetti.com)
 
 **My personal website — a living, evolving touchpoint for anyone curious about what I’m building, learning, thinking about, or dreaming up.**
 
