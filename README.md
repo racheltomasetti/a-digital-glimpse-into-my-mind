@@ -1,4 +1,4 @@
-# digital-glimpse-into-my-mind
+# A Glimpse Into My Mind
 
 This repository powers my personal website — a living, evolving touchpoint for anyone curious about what I’m building, learning, thinking about, or dreaming up. But more than that, it’s a window into my mind.
 
