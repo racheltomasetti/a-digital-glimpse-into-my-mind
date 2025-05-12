@@ -14,5 +14,7 @@ This project is also for me: to track my evolution, make sense of my scattered t
 
 Thanks for visiting — and witnessing even a small glimpse of what’s going on inside.
 
-💫 Rachel Tomasetti  
+Much love, 
+Rachel Tomasetti  
+
 [https://www.racheltomasetti.com](https://www.racheltomasetti.com)
