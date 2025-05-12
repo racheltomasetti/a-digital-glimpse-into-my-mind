@@ -1,12 +1,12 @@
 # A Glimpse Into My Mind
-
-**My personal website — a living, evolving touchpoint for anyone curious about what I’m building, learning, thinking about, or dreaming up.**
+---
 
 ### 🔗[https://www.racheltomasetti.com](https://www.racheltomasetti.com)
 
+**My personal website — a living, evolving touchpoint for anyone curious about what I’m building, learning, thinking about, or dreaming up.**
+
 But more than that, it’s a window into my mind.
 
----
 
 ## The Journey
 
@@ -16,13 +16,11 @@ Creating this site has been a long, nonlinear journey — one that’s stretched
 And then a different kind of challenge emerged:  
 **What do I even put here?**
 
----
 
 ## The Why
 
 I had so much I wanted to share — ideas, questions, projects, philosophies, curiosities — but no clear way to structure them. This site became my answer. A place not just to show *what* I do, but *how* I think. A home for the messy, beautiful process of becoming. A place where my thoughts can live, connect, evolve — and maybe resonate with someone else.
 
----
 
 ## For my Self
 
@@ -33,5 +31,6 @@ Thanks for visiting — and checking out even a small glimpse of what’s going 
 
 
 With love, 
-Rachel Tomasetti  
+Rachel Tomasetti 
+---
 
