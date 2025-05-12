@@ -1,5 +1,4 @@
 # A Glimpse Into My Mind
----
 
 ### 🔗[https://www.racheltomasetti.com](https://www.racheltomasetti.com)
 
