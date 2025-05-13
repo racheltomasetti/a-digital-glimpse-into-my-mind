@@ -165,12 +165,12 @@ export default function Home() {
             <p className="mb-4">
               <span className="font-bold">My mission is to change that.</span>
               <br />
-              <br />I want to create a tool that gives women access to something
+              <br />I am creating a tool that gives women access to something
               they've always had: their{" "}
               <span className="italic">own body's intelligence</span>
               .
               <br />
-              <br />I want to make self-understanding not just accessible, but
+              <br />I am making self-understanding not just accessible, but
               intuitive. Seamless. A process that{" "}
               <span className="font-bold italic">feels like magic.</span>
             </p>
@@ -245,7 +245,7 @@ export default function Home() {
             <ul className="list-disc list-inside mb-4 space-y-1">
               <li>
                 <span className="font-bold italic">
-                  A personalized operating system
+                  A personal operating system
                 </span>{" "}
                 that adapts to your rhythm—syncing your inputs, behaviors, and
                 biology
