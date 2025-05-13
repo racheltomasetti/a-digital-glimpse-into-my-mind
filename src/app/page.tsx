@@ -1,56 +1,45 @@
 "use client";
-import { useState } from "react";
+import Image from "next/image";
 
 export default function Home() {
-  const [clicks, setClicks] = useState(0);
-  const [message, setMessage] = useState("Under Construction");
-
-  const funMessages = [
-    "Building something amazing...",
-    "Laying the foundation...",
-    "Adding some magic...",
-    "Polishing the details...",
-    "Almost there...",
-    "Just a bit longer...",
-    "Making it perfect...",
-    "Under Construction",
-  ];
-
-  const handleClick = () => {
-    setClicks((prev) => prev + 1);
-    setMessage(funMessages[clicks % funMessages.length]);
-  };
-
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-rose-50 via-orange-50 to-amber-50">
-      <div
-        className="text-center space-y-8 p-8 rounded-xl transition-all duration-300 hover:scale-105"
-        style={{ cursor: "pointer" }}
-        onClick={handleClick}
-      >
-        <h1 className="text-4xl font-bold bg-gradient-to-r from-indigo-700 via-purple-700 to-rose-700 bg-clip-text text-transparent">
-          {message}
-        </h1>
-
-        <div className="flex justify-center space-x-2">
-          {[...Array(3)].map((_, i) => (
-            <div
-              key={i}
-              className="w-4 h-4 rounded-full bg-indigo-500/80 animate-bounce"
-              style={{
-                animationDelay: `${i * 0.2}s`,
-              }}
-            />
-          ))}
+    <main
+      className="min-h-screen flex flex-col items-center"
+      style={{ background: "#fffcef" }}
+    >
+      <div className="flex flex-col items-center mt-8 mb-8">
+        <div className="relative flex items-center justify-center w-fit">
+          <Image
+            src="/logo.png"
+            alt="Logo"
+            width={224}
+            height={224}
+            className="w-24 sm:w-32 md:w-44 lg:w-56 h-auto z-10"
+            priority
+          />
+          <Image
+            src="/flower.png"
+            alt="Flower Left"
+            width={64}
+            height={128}
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/3 w-14 sm:w-16 md:w-20 lg:w-24 h-auto z-20"
+            priority
+          />
+          <Image
+            src="/flower.png"
+            alt="Flower Right"
+            width={64}
+            height={128}
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/3 w-14 sm:w-16 md:w-20 lg:w-24 h-auto scale-x-[-1] z-20"
+            priority
+          />
         </div>
-
-        <div className="text-purple-800 text-sm mt-4">
-          {clicks > 0 &&
-            `You've clicked ${clicks} time${clicks === 1 ? "" : "s"}!`}
-        </div>
-
-        <div className="text-indigo-700 text-sm mt-2">(Click me!)</div>
+        <h2 className="text-base sm:text-lg md:text-2xl lg:text-3xl font-light text-gray-700 tracking-widest uppercase text-center mt-4">
+          the story of ki and me
+        </h2>
+        <hr className="w-3/3 border-t-1 border-gray-700 my-4" />
       </div>
+      {/* Content goes here */}
     </main>
   );
 }
