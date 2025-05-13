@@ -8,6 +8,10 @@ export default function Home() {
       style={{ background: "#fffcef" }}
     >
       <div className="flex flex-col items-center mt-8 mb-8">
+        <h2 className="text-base sm:text-lg md:text-2xl lg:text-3xl font-light text-gray-700 tracking-widest uppercase text-center mt-4">
+          building ki / building me
+        </h2>
+        <hr className="w-3/3 border-t-1 border-gray-700 my-4" />
         <div className="relative flex items-center justify-center w-fit">
           <Image
             src="/logo.png"
@@ -34,10 +38,6 @@ export default function Home() {
             priority
           />
         </div>
-        <h2 className="text-base sm:text-lg md:text-2xl lg:text-3xl font-light text-gray-700 tracking-widest uppercase text-center mt-4">
-          the story of ki and me
-        </h2>
-        <hr className="w-3/3 border-t-1 border-gray-700 my-4" />
       </div>
       {/* Content goes here */}
     </main>
